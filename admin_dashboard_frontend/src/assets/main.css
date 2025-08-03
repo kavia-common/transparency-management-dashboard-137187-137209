@@ -1,7 +1,9 @@
-@import 'tailwindcss/base';
+/* Tailwind CSS Directives - Required for Tailwind to function. */
+/* Do NOT remove any of the lines below! */
+@tailwind base;
 @import './base.css';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@tailwind components;
+@tailwind utilities;
 
 /* Dashboard layout overrides */
 #app {
