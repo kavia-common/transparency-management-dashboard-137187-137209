@@ -22,8 +22,5 @@ import TopHeader from './components/TopHeader.vue'
   </div>
 </template>
 
-<style>
-body {
-  @apply bg-gray-100 dark:bg-gray-900;
-}
-</style>
+/* Removed unsupported @apply usage in root App.vue.
+   All Tailwind CSS should be imported and handled via main.css or component-level classes. */
