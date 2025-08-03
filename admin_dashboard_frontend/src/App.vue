@@ -5,8 +5,9 @@ import TopHeader from './components/TopHeader.vue'
 
 <template>
   <!-- DIAGNOSTIC: If this div is styled, Tailwind is working -->
-  <div class="tailwind-diagnostic-debug mb-2">
-    Tailwind CSS Diagnostic: If you see this box blue background orange text gray border, Tailwind styling works.
+  <div class="bg-red-500 text-white p-5 text-2xl font-bold text-center rounded mb-8">
+    Tailwind CSS Diagnostic: You should see a solid red background with white text here.<br />
+    If this renders as red and white on refresh, Tailwind is active.
   </div>
   <div class="flex h-screen bg-gray-100 dark:bg-gray-900">
     <!-- Sidebar -->
