@@ -4,6 +4,10 @@ import TopHeader from './components/TopHeader.vue'
 </script>
 
 <template>
+  <!-- DIAGNOSTIC: If this div is styled, Tailwind is working -->
+  <div class="tailwind-diagnostic-debug mb-2">
+    Tailwind CSS Diagnostic: If you see this box blue background orange text gray border, Tailwind styling works.
+  </div>
   <div class="flex h-screen bg-gray-100 dark:bg-gray-900">
     <!-- Sidebar -->
     <SidebarNav class="hidden md:block" />
@@ -22,5 +26,5 @@ import TopHeader from './components/TopHeader.vue'
   </div>
 </template>
 
-/* Removed unsupported @apply usage in root App.vue.
-   All Tailwind CSS should be imported and handled via main.css or component-level classes. */
+<!-- Removed unsupported @apply usage in root App.vue.
+   All Tailwind CSS should be imported and handled via main.css or component-level classes. -->
